@@ -1,0 +1,34 @@
+* {
+    --main-colour: #2f4b8f;
+    --link-colour: #90c6e3;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+
+h1 {
+color: var(--main-colour);
+}
+
+img {
+    height: 95vh;
+    border-left: 1px solid var(--main-colour);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: right;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-colour);
+}
+
+p {
+    font-style: italic;
+}
